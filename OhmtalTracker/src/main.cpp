@@ -17,6 +17,11 @@ OTMain* getMain() {
 
 int main(int argc, char* argv[])
 {
+
+    // IMPORTANT !!
+    if (isAndroidBuild()) SDL_SetHint(SDL_HINT_AUDIO_DEVICE_SAMPLE_FRAMES, "2048");
+    else SDL_SetHint(SDL_HINT_AUDIO_DEVICE_SAMPLE_FRAMES, /*"8192"*/ /*"2048" */ "4096");
+
     (void)argc; (void)argv;
     OTMain* app = new OTMain();
     app->mSettings.Company = "Ohmtal";

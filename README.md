@@ -1,7 +1,7 @@
 # 🎵 Ohmtal Tracker
 ## by T.Hühn (XXTH) 2026
 
-Ohmtal Axe is a cross platform OPL3 Tracker. 
+Make retro music with the Ohmtal Tracker :) 
 
 --- 
 

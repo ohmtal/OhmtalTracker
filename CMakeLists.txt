@@ -75,7 +75,7 @@ if(BUILD_FLUXTRACKER)
         # --- OPL
         ${OPL_SOURCES}
         # --- sfx
-        ${SFX_SOURCES}
+        # ${SFX_SOURCES}
 
     )
     configure_project_target(OhmtalTracker ${TRACKER_DIR} "${TRACKER_DIR}/assets@assets" "${TRACKER_SOURCES}")
